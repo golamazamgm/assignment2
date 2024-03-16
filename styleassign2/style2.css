@@ -1,0 +1,555 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+header{
+    padding: 50px 125px;
+}
+nav{
+   display: flex; 
+   justify-content: space-between;
+   align-items: center;
+}
+nav div{display: flex;
+    align-items: center;
+}
+
+nav img{
+    width: 52px;
+    height: 45px;
+}
+nav ul{
+    display: flex;
+    gap: 40px;
+}
+nav li{
+    list-style: none;
+    color: var(--Dark-02, #424247);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+nav a{
+    text-decoration: none;
+}
+nav h1{color: #131318;
+    font-family: Mulish;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.holud{
+    color: #FF5400;
+}
+
+
+/* main section started */
+
+main{
+    padding: 0px 120px;
+}
+
+section{margin-bottom: 100px;}
+
+/* section one started */
+
+.sec-one{
+    background-size: cover;
+    padding: 100px 180px;
+    border-radius: 16px;
+    
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%) , url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+}
+.sec-one h1{
+    text-align: center;
+    margin-top: 0;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+}
+.sec-one p{color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+.sec-one .frame{
+    padding: 14.5px;
+    display: flex;
+    justify-content: ;
+    gap: 22px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    margin-top: 4opx;
+}
+.frame button{
+    color: rgba(19, 19, 24, 0.50);
+    text-align: ;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+    border: 0;
+}
+
+.frame select{
+    margin-left: auto;
+    width: 24px;
+    height: 24px;
+    border: 0;
+}
+
+.frame .find{
+    border-radius: 8px;
+    background: #FF5400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+/* section two :started */
+
+
+.sec-two {
+    display: flex;
+    gap: 50px;
+}
+
+.boro{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 0;
+
+}
+.sec-two p{
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    margin-bottom: 35px;
+
+}
+.sec-two li{
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+
+}
+
+.button-holud{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 8px;
+    background: #FF5400;
+    padding: 14px 30px;
+    border: 0;
+
+}
+
+
+/* section three :started */
+
+.title{
+    text-align: center;
+    padding: 10px 260px;
+}
+
+
+.sec-three p{
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+
+
+
+/* section four started */
+
+
+.sec-four h3{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+}
+.sec-four p{color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+
+.sec-four .box-container{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+    
+}
+
+.sec-four .box-container div{padding: 32px;}
+
+.sec-four .box1{border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+.sec-four .box2{border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);}
+
+.sec-four .box3{border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    justify-self: center;
+}
+
+
+/* section five started */
+
+
+.sec-five .title p{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+
+}
+
+
+.deals-container{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+}
+
+
+.deals{
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    padding: 50px 75px 50px 50px;
+
+}
+
+.deals ul{
+    display: flex;
+    gap: 22px;
+    padding: 0;
+}
+.deals li{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.deals h3{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+}
+.deals p{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+
+}
+
+.deals h4{
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.deal-1{
+    border-radius: 16px;
+    background: url('../Images/Group\ 39.png') lightgray 50% / cover no-repeat;
+    padding: 50px 50px 50px 520px;
+
+}
+.deal-2{
+    border-radius: 16px;
+    background: url('../Images/Group\ 40.png') lightgray 50% / cover no-repeat;
+    padding: 50px 520px 50px 50px;
+
+}
+.deal-3{
+    border-radius: 16px;
+    background: url('../Images/Group\ 39.png') lightgray 50% / cover no-repeat;
+    padding: 50px 50px 50px 520px;
+
+}
+
+.sec-five .emni-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+}
+
+
+/* section six started */
+
+.sec-six{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 26px;
+}
+
+.sec-six h1{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 50px; /* 150% */
+
+}
+.sec-six p{
+    color: #5A5A5D;
+font-family: Mulish;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+.sec-six ul{color: #131318;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 162.5% */
+    margin-bottom: 30px;
+}
+
+.bdmountain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #13131854 -31.96%, rgba(19, 19, 24, 0.062) 100%), url('../Images/Group\ 40089.png');
+}
+.bdmountain h3{color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; /* 150% */
+}
+
+
+/* section seven started */
+
+.sec-seven{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr) 1.45fr;
+    gap: 24px;
+
+}
+.sec-seven>div{border: 2px solid #FF5400;}
+
+.form{
+    padding: 40px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    
+}
+
+.sec-seven h2{color: #131318;
+    font-family: Mulish;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 0;
+
+}
+.sec-seven p{
+    color: #5A5A5D;
+font-family: Mulish;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+.form input{
+    display: block;
+    color: rgba(19, 19, 24, 0.30);
+font-family: Mulish;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding: 14px 200px 14px 18px;
+border-radius: 8px;
+background: rgba(19, 19, 24, 0.05);
+border: 0;
+margin-top: 10px;
+}
+.form button{
+    margin-top: 16px;
+    
+}
+.form .inp{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+
+.pic{
+    border-radius: 16px;
+    background: url('../Images/Rectangle\ 8\ \(1\).png') lightgray 50% / cover no-repeat;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+
+}
+
+.pic h4{color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.pic h3{color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1.7rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.pic div{
+    border-radius: 16px;
+    background: #FF5400;
+    width: 324px;
+height: 120px;
+transform: rotate(-19.628deg);
+transform-origin: bottom left;
+
+
+}
+
+
+
+/* footer */
+
+footer{padding: 105px 275px;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+footer>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero h2{color: #131318;
+    font-family: Mulish;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.hero p{
+    color: #5A5A5D;
+text-align: center;
+font-family: Mulish;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+
+.hero>div{
+    display: flex;
+    align-items: center;
+}
+.hero img{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.right{
+    color: #131318;
+font-family: Inter;
+font-size: 1rem;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+margin-top: 45px;
+}
+
+
+
+
