@@ -16,10 +16,13 @@ nav div{display: flex;
     align-items: center;
 }
 
-nav img{
+/* nav img{
     width: 52px;
-    height: 45px;
-}
+    height: 45px; 
+}*/
+nav>img{display: none;}
+
+
 nav ul{
     display: flex;
     gap: 40px;
@@ -204,6 +207,78 @@ section{margin-bottom: 100px;}
     line-height: 26px; /* 162.5% */
 }
 
+.sec-three .image-container{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 55px;
+
+}
+
+.Maldives{border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 5.png') lightgray 50% / cover no-repeat;
+    padding: 115px 200px;
+}
+.Indonesia{border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 8.png') lightgray 50% / cover no-repeat;
+    padding: 115px 200px;
+}
+
+.div-1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 22px;
+    margin-bottom: 22px;
+}
+
+.Srilanka{
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 6.png') lightgray 50% / cover no-repeat;
+    padding: 115px 115px;
+
+}
+.North{
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 7.png') lightgray 50% / cover no-repeat;
+    padding: 115px 110px;
+}
+.Kashmir{
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 9.png') lightgray 50% / cover no-repeat;
+    padding: 115px 75px;
+}
+
+.div-2{
+    display: grid;
+    grid-template-columns: 1fr 1.27fr .73fr;
+    gap: 22px;
+    margin-bottom: 22px;
+}
+
+.Bangladesh{
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 11.png') lightgray 50% / cover no-repeat;
+    padding: 115px 140px;
+}
+
+.Bandarban{border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 10.png') lightgray 50% / cover no-repeat;
+    padding: 115px 235px;
+}
+
+.div-3{
+    display: grid;
+    grid-template-columns: 1fr 1.43fr;
+    gap: 22px;
+}
+
+
+
+
 
 
 /* section four started */
@@ -348,7 +423,7 @@ section{margin-bottom: 100px;}
 
 }
 
-.sec-five .emni-btn{
+.emni-btn{
     display: flex;
     justify-content: center;
     margin-top: 55px;
@@ -414,7 +489,6 @@ line-height: 26px; /* 162.5% */
     gap: 24px;
 
 }
-.sec-seven>div{border: 2px solid #FF5400;}
 
 .form{
     padding: 40px;
@@ -551,5 +625,104 @@ margin-top: 45px;
 }
 
 
+/* responsive style started */
 
+@media screen and (max-width: 576px) {
+
+/* haeader style */
+    header{
+        padding: 20px 20px;
+    }
+
+    nav>ul{
+        display: none;
+    }
+    nav>img{
+        display: inline;
+    }
+
+/* main section style */
+main{padding: 20px 20px;}
+section{margin-bottom: 22px;}
+
+/* sec one */
+.sec-one{padding: 20px;}
+.sec-one .frame{flex-direction: column;}
+.sec-one .frame button{ width: 100%;}
+
+
+/* sec two */
+.sec-two{flex-direction: column;}
+
+/* .sec-three */
+
+.title{padding: 10px 15px;}
+.image-container{
+    margin-top: 20px;
+}
+.div-1{grid-template-columns: 1fr;}
+.div-2{grid-template-columns: 1fr;}
+.div-3{grid-template-columns: 1fr;}
+.Bangladesh, .Bandarban,.Maldives,.Indonesia{padding: 115px 130px;}
+
+/* .sec-four style */
+
+.sec-four .box-container{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);}
+
+
+/* .sec-five */
+
+.deals{padding: 15px;}
+
+.deal-1{
+    border-radius: 16px;
+    background: url('../Images/Group\ 39.png') lightgray 50% / cover no-repeat;
+    padding: 185px 14px 14px 14px;
+
+}
+
+.deal-2{
+    border-radius: 16px;
+    background: url('../Images/Group\ 40.png') lightgray 50% / cover no-repeat;
+    padding: 185px 14px 14px 14px;
+
+}
+.deal-3{
+    border-radius: 16px;
+    background: url('../Images/Group\ 39.png') lightgray 50% / cover no-repeat; 
+    padding: 185px 14px 14px 14px;
+
+}
+.emni-btn{margin-top: 22px;}
+
+
+/* .sec-six */
+
+
+.sec-six{grid-template-columns: repeat(1,1fr);}
+.sec-six{grid-template-rows: repeat(2,1fr);}
+
+
+
+/* .sec-seven{} */
+
+.sec-seven{grid-template-columns: repeat(1,1fr);}
+.sec-seven{grid-template-rows: repeat(2,1fr);}
+
+
+
+/* footer */
+
+footer{padding: 15px 20px;}
+
+
+
+
+
+
+
+
+}
 
