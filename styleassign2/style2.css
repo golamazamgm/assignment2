@@ -625,7 +625,54 @@ margin-top: 45px;
 }
 
 
+/* .sec-eight style started */
+
+.sec-eight p{color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+
+.cox a{text-decoration: none;
+    color: #FFF;
+}
+.cox{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 22px;
+}
+
+.Gallery{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Exploring-Coxs-Bazar.jpg') lightgray 50% / cover no-repeat;
+    padding: 115px 180px;
+}
+
+.plan{color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/sunset-coxs-bazar-1024x548.jpg') lightgray 50% / cover no-repeat;
+    padding: 115px 180px;
+}
+
 /* responsive style started */
+
+/* 540px-571px is recommended to check responsiveness */
 
 @media screen and (max-width: 576px) {
 
@@ -679,20 +726,20 @@ section{margin-bottom: 22px;}
 .deal-1{
     border-radius: 16px;
     background: url('../Images/Group\ 39.png') lightgray 50% / cover no-repeat;
-    padding: 185px 14px 14px 14px;
+    padding: 220px 14px 14px 14px;
 
 }
 
 .deal-2{
     border-radius: 16px;
     background: url('../Images/Group\ 40.png') lightgray 50% / cover no-repeat;
-    padding: 185px 14px 14px 14px;
+    padding: 220px 14px 14px 14px;
 
 }
 .deal-3{
     border-radius: 16px;
     background: url('../Images/Group\ 39.png') lightgray 50% / cover no-repeat; 
-    padding: 185px 14px 14px 14px;
+    padding: 220px 14px 14px 14px;
 
 }
 .emni-btn{margin-top: 22px;}
@@ -719,7 +766,10 @@ footer{padding: 15px 20px;}
 
 
 
-
+/* .sec-eight */
+.cox{
+    grid-template-columns: repeat(1,1fr);
+}
 
 
 
